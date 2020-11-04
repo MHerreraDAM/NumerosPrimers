@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prime Number Calculator</string>
+    <string name="nu_meros_primos">Prime Numbers</string>
+    <string name="name">PRIME CALCULATOR</string>
+    <string name="description">Simple calculator to get number first based on position</string>
+    <string name="position">Position</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="result">RESULT</string>
+    <string name="error">ERROR</string>
+    <string name="calculado">Finish!</string>
+</resources>

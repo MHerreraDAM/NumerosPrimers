@@ -21,8 +21,6 @@
         android:layout_width="485dp"
         android:layout_height="214dp"
         app:srcCompat="@drawable/fondo_degradado_tonos_verdes_23_2148373476"
-        tools:layout_editor_absoluteX="-30dp"
-        tools:layout_editor_absoluteY="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -57,11 +55,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="302dp"
-        android:layout_height="311dp"
-        android:layout_marginTop="456dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
+        android:layout_width="281dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -114,11 +112,12 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="291dp"
-        android:layout_height="78dp"
-        android:layout_marginLeft="72dp"
+        android:layout_width="316dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="52dp"
         android:layout_marginTop="16dp"
-        android:text="CALCULADORA DE NÚMEROS PRIMOS"
+        android:text="@string/name"
+        android:textAlignment="center"
         android:textColor="#130A0A"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -131,7 +130,7 @@
         android:layout_height="64dp"
         android:layout_marginLeft="68dp"
         android:layout_marginTop="136dp"
-        android:text="Calculadora simple para obtener un número primo  según la posición"
+        android:text="@string/description"
         android:textColor="#0C2335"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -143,7 +142,7 @@
         android:layout_height="118dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="324dp"
-        android:text="POSICIÓN"
+        android:text="@string/position"
         android:textColor="#F4F2F2"
         android:textSize="18sp"
         android:textStyle="normal"
@@ -157,7 +156,7 @@
         android:layout_height="91dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="480dp"
-        android:text="CALCULAR"
+        android:text="@string/calculate"
         android:textColor="#F4F2F2"
         android:textSize="18sp"
         android:textStyle="normal"
@@ -167,11 +166,11 @@
 
     <TextView
         android:id="@+id/resultado"
-        android:layout_width="165dp"
-        android:layout_height="61dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="604dp"
-        android:text="Resultado"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="608dp"
+        android:text="@string/result"
         android:textAlignment="center"
         android:textColor="#EAE4E4"
         android:textSize="36sp"
@@ -190,5 +189,6 @@
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

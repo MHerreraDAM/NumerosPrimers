@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calculadora Números Primos</string>
+    <string name="app_name">Calculadora de Números Primos</string>
     <string name="nu_meros_primos">Números Primos</string>
     <string name="name">CALCULADORA DE NÚMEROS PRIMOS</string>
     <string name="description">Calculadora simple para obtener un número primero según la posición</string>
@@ -8,5 +9,4 @@
     <string name="result">RESULTADO</string>
     <string name="error">ERROR</string>
     <string name="calculado">Hecho!</string>
-
 </resources>

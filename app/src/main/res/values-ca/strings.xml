@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de Nombres Primers</string>
+    <string name="nu_meros_primos">Nombres Primers</string>
+    <string name="name">CALCULADORA DE NOMBRES PRIMERS</string>
+    <string name="description">Calculadora simple per obtenir un nombre primer segons la posició</string>
+    <string name="position">Posició</string>
+    <string name="calculate">CALCULAR</string>
+    <string name="result">RESULTAT</string>
+    <string name="error">ERROR</string>
+    <string name="calculado">Fet!</string>
+</resources>
